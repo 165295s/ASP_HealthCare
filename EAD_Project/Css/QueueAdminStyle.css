@@ -1,0 +1,46 @@
+﻿div.Contents{
+    text-align:center;
+}
+
+.Corners {
+    border-radius: 10px;
+}
+
+.tb{
+    text-align:center;
+}
+
+section ul{
+    width:100%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+section ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.6rem 0;
+    width:49%;
+}
+
+section ul::after{
+    content:"";
+    width:100%;
+    display:inline-block;
+}
+
+section ul li div{
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    section ul{
+        width:100%;
+    }
+    section ul li{
+        width:100%;
+    }
+    section ul li div{
+        width:100%;
+    }
+}

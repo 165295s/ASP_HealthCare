@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EadTeam.master.cs" Inherits="EAD_Project.EadTeam" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Contents/bootstrap.css" rel="stylesheet" />
+    <link href="Contents/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-2.2.4.js"></script>
+    <link href="Css/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div class="header">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="58px" Width="78px" /><br class="visible-xs"/>
+                <asp:Label ID="LblTitle" runat="server" Text="BayHealth Hospital" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
+                <div class="UserInfo">
+                    <asp:Label ID="LblWelcome" runat="server" Font-Size="Large" Visible="False"></asp:Label>
+                    <asp:ImageButton ID="ImgBtnLogOut" runat="server" ImageUrl="~/Images/Logout.png" Height="12px" Width="12px" OnClick="ImgBtnLogOut_Click" Visible="False" />
+                </div>
+            </div>
+
+        <nav class="nav navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#TeamNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="TeamNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../MainPage.aspx">Home</a></li>
+                    <li><a href="../QueueCheck.aspx">Queue Check</a></li>
+                    <li><a href="../VisitorManagement.aspx">Visit Management System</a></li>
+                    <li><a href="MedicineOnline.aspx">Medicine Online</a></li>
+                    <%-- HyperLink ID must contain the words "Hyperlink" together with role and ending with "Func" and numbering(eg. HyperlinkPatientFunc1 is Patient function 1) --%>
+                    <li><asp:HyperLink ID="HyperLinkPatientFunc1" runat="server" Visible="False" NavigateUrl="~/OnlineAppointment.aspx">Online Appointment</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkPatientFunc2" runat="server" Visible="False" NavigateUrl="~/FoodCustomisation.aspx">Food Order</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkPatientFunc3" runat="server" Visible="False" NavigateUrl="~/Take_Daily_Survey.aspx">Take Daily Survey</asp:HyperLink></li>
+
+                    <li><asp:HyperLink ID="HyperLinkDoctorFunc1" runat="server" Visible="False" NavigateUrl="~/Diagnose_Patient.aspx">Diagnose Patient</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkDoctorFunc2" runat="server" Visible="False" NavigateUrl="~/View_Daily_Survey.aspx">View Daily Survey</asp:HyperLink></li>
+
+                    <li><asp:HyperLink ID="HyperLinkNurseFunc1" runat="server" Visible="False" NavigateUrl="~/ReminderPatientSelection.aspx">Nurse Reminder</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkNurseFunc2" runat="server" Visible="False" NavigateUrl="~/Patient_Care.aspx">Patient Care</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkNurseFunc3" runat="server" Visible="False" NavigateUrl="~/FoodOrderList.aspx">Food Order list</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLinkNurseFunc4" runat="server" Visible="False" NavigateUrl="~/Nurses_Shift.aspx">Nurse Shift</asp:HyperLink></li>
+
+                    <li><asp:HyperLink ID="HyperLinkAdminFunc1" data-toggle="dropdown" runat="server" Visible="False">Queue Administration <span class="caret"></span></asp:HyperLink>
+                        <ul class="dropdown-menu">
+                            <li><asp:HyperLink ID="HyperLinkCounter1" runat="server">Counter 1</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="HyperLinkCounter2" runat="server">Counter 2</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="HyperLinkCounter3" runat="server">Counter 3</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="HyperLinkCounter4" runat="server">Counter 4</asp:HyperLink></li>
+                         </ul>
+                    </li>
+
+                    <li><asp:HyperLink ID="HyperLinkAdminFunc2"  data-toggle="dropdown" runat="server" Visible="False">Patient Visit Administration <span class="caret"></span></asp:HyperLink>
+                        <ul class="dropdown-menu">
+                            <li><asp:HyperLink ID="HyperLinkPatientVisitArrival" runat="server" NavigateUrl="~/CaptureBarcode.aspx">Patient Visit Check In</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="HyperLinkPatientVisitDeparture" runat="server" NavigateUrl="~/CaptureBarcodePatientVisitDeparture.aspx" Target="_blank">Patient Visit Check Out</asp:HyperLink></li>
+                         </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+            <div class="Footer">
+                 <p><asp:Image ID="ImgCopyRight" ImageUrl="~/Images/copyrightLogo.png" runat="server" Height="11px" Width="11px" /> Copyright 2017 BayHealth Hospital</p>  
+            </div>
+
+ 
+             
+             
+    </form>
+</body>
+</html>

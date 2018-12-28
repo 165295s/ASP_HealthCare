@@ -1,0 +1,59 @@
+﻿body, div, p {
+    margin:0;
+    padding:0;
+}
+
+div.Role p{
+    font-size:x-large;
+    text-align:center;
+}
+
+section ul{
+    width:90%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+section ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.6rem 0;
+}
+
+section ul::after{
+    content:"";
+    width:100%;
+    display:inline-block;
+}
+
+section ul li div{
+    width:200px;
+    height:225px;
+    border:1px solid black;
+    border-radius:10px;
+    font-size:30px;
+    text-align:center;
+}
+
+.ImgBtnAlign {
+    display: block;
+    margin: 0px auto;
+    margin-top:1.6rem;
+}
+
+@media only screen and (max-width: 720px) {
+    section ul{
+        width:100%;
+    }
+    section ul li{
+        width:100%;
+    }
+    section ul li div{
+        width:100%;
+    }
+}
+
+
+
+
+

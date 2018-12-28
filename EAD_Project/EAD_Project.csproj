@@ -1,0 +1,586 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EmguCV.3.1.0.1\build\EmguCV.props" Condition="Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6342423B-CE76-4857-AB05-DD355B93628E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EAD_Project</RootNamespace>
+    <AssemblyName>EAD_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.BarcodeGenerator, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.BarcodeGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.BarcodeReader, Version=5.1.0.404, Culture=neutral, PublicKeyToken=ad0967c36e09320a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.Camera, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.Camera.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.Forms.Viewer, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.Forms.Viewer.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.ImageCore, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.ImageCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.OCR, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.OCR.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.PDF, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.Twain, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.Twain.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.WPF.Viewer, Version=7.1.0.526, Culture=neutral, PublicKeyToken=298ad97013b423eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamsoft.DotNet.TWAIN.7.1.0\lib\net40\Dynamsoft.WPF.Viewer.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmguCV.3.1.0.1\lib\net30\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Authenticator, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GoogleAuthenticator.1.2.1\lib\net45\Google.Authenticator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.1.1.2225.0\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.GLControl.1.1.2225.0\lib\net20\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="SendGrid, Version=9.8.0.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.9.9.0\lib\net452\SendGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.5\lib\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.2\lib\net45\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.2\lib\net45\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\EAD_Team_DB.mdf" />
+    <Content Include="App_Data\EAD_Team_DB_log.ldf">
+      <DependentUpon>EAD_Team_DB.mdf</DependentUpon>
+    </Content>
+    <Content Include="AssignNurses.aspx" />
+    <Content Include="CaptureBarcode.aspx" />
+    <Content Include="CaptureBarcodePatientVisitDeparture.aspx" />
+    <Content Include="Checkout.aspx" />
+    <Content Include="Connected Services\SMS\EAD_Project.SMS.SMSData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\SMS\sms.disco" />
+    <None Include="Connected Services\SMS\configuration91.svcinfo" />
+    <None Include="Connected Services\SMS\configuration.svcinfo" />
+    <None Include="Connected Services\SMS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Contents\bootstrap-theme.css" />
+    <Content Include="Contents\bootstrap-theme.min.css" />
+    <Content Include="Contents\bootstrap.css" />
+    <Content Include="Contents\bootstrap.min.css" />
+    <Content Include="Css\CaptureBarcodeStyle.css" />
+    <Content Include="Css\Consultation_Patient.css" />
+    <Content Include="Css\Diagnose_patient.css" />
+    <Content Include="Css\FoodCustomisation.css" />
+    <Content Include="Css\FoodOrderList.css" />
+    <Content Include="Css\Forms.css" />
+    <Content Include="Css\LoginPage.css" />
+    <Content Include="Css\MainPageStyle.css" />
+    <Content Include="Css\MasterPage.css" />
+    <Content Include="Css\MedicineOnlineStyle.css" />
+    <Content Include="Css\OnlineAppointment.css" />
+    <Content Include="Css\PatientCareListStyle.css" />
+    <Content Include="Css\PatientCareStyle.css" />
+    <Content Include="Css\QueueAdminStyle.css" />
+    <Content Include="Css\QueueCheckStyle.css" />
+    <Content Include="Css\Reminder%28Nurse%29.css" />
+    <Content Include="Css\ReminderNurseSelectionStyle.css" />
+    <Content Include="Css\Take_Daily_Survey.css" />
+    <Content Include="Css\View_Daily_Survey.css" />
+    <Content Include="Css\VisitorAdmin.css" />
+    <Content Include="Css\VisitorManagementStyle.css" />
+    <Content Include="Custom_Error_Page.aspx" />
+    <Content Include="Diagnose_Patient.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FoodCustomisation.aspx" />
+    <Content Include="FoodOrderList.aspx" />
+    <Content Include="GoogleAuthenticator.aspx" />
+    <Content Include="Images\Admin.png" />
+    <Content Include="Images\analgelsic.jpg" />
+    <Content Include="Images\antibiotics.jpg" />
+    <Content Include="Images\antipyretics.jpg" />
+    <Content Include="Images\antiseptic.jpg" />
+    <Content Include="Images\Barcode.jpeg" />
+    <Content Include="Images\cough syrup.jpg" />
+    <Content Include="Images\doctor.png" />
+    <Content Include="Images\copyrightLogo.png" />
+    <Content Include="Images\laxative.jpg" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\Logout.png" />
+    <Content Include="Images\lozenges.jpg" />
+    <Content Include="Images\MainIMG.png" />
+    <Content Include="Images\mood stabilizer.jpg" />
+    <Content Include="Images\nurse.png" />
+    <Content Include="Images\patient.png" />
+    <Content Include="Images\Visitor.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="MedicineOnline.aspx" />
+    <Content Include="Nurses_Shift.aspx" />
+    <Content Include="OnlineAppointment.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="EadTeam.Master" />
+    <Content Include="Contents\bootstrap-theme.css.map" />
+    <Content Include="Contents\bootstrap-theme.min.css.map" />
+    <Content Include="Contents\bootstrap.css.map" />
+    <Content Include="Contents\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="PatientCareList.aspx" />
+    <Content Include="Patient_Care.aspx" />
+    <Content Include="QueueAdministration.aspx" />
+    <Content Include="QueueCheck.aspx" />
+    <Content Include="QueueService.asmx" />
+    <Content Include="ReminderNurse.aspx" />
+    <Content Include="ReminderPatientSelection.aspx" />
+    <Content Include="Scripts\cust\Dynamsoft.BarcodeReaderDemo.js" />
+    <Content Include="Scripts\cust\video.js" />
+    <Content Include="Scripts\cust\video2.js" />
+    <Content Include="SendEmailLink.aspx" />
+    <Content Include="ResetPassword.aspx" />
+    <Content Include="Scripts\jquery-2.2.4.min.map" />
+    <Content Include="OpenTK.dll.config" />
+    <None Include="Connected Services\SMS\sms.wsdl" />
+    <Content Include="JSON\AccessControl.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Take_Daily_Survey.aspx" />
+    <Content Include="View_Daily_Survey.aspx" />
+    <Content Include="WebcamBarcodeReader.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MainPage.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-2.2.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.4.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Testing.aspx" />
+    <Content Include="VisitorManagementAddVisitor.aspx" />
+    <Content Include="VisitorManagement.aspx" />
+    <Content Include="VisitorManagementService.asmx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssignNurses.aspx.cs">
+      <DependentUpon>AssignNurses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignNurses.aspx.designer.cs">
+      <DependentUpon>AssignNurses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeReaderDll\BarcodeCommon.cs" />
+    <Compile Include="BarcodeReaderDll\BarrecodeReaderRepo.cs" />
+    <Compile Include="CaptureBarcode.aspx.cs">
+      <DependentUpon>CaptureBarcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaptureBarcode.aspx.designer.cs">
+      <DependentUpon>CaptureBarcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureBarcodePatientVisitDeparture.aspx.cs">
+      <DependentUpon>CaptureBarcodePatientVisitDeparture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaptureBarcodePatientVisitDeparture.aspx.designer.cs">
+      <DependentUpon>CaptureBarcodePatientVisitDeparture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\SMS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\MasterPageController.cs" />
+    <Compile Include="Controller\PatientVisitArrivalController.cs" />
+    <Compile Include="Controller\QueueAdminController.cs" />
+    <Compile Include="Controller\ResetPasswordController.cs" />
+    <Compile Include="Controller\VisitorManagementController.cs" />
+    <Compile Include="Custom_Error_Page.aspx.cs">
+      <DependentUpon>Custom_Error_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Custom_Error_Page.aspx.designer.cs">
+      <DependentUpon>Custom_Error_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\AssignNursesDAO.cs" />
+    <Compile Include="DAL\AssignNursesObject.cs" />
+    <Compile Include="DAL\ChangePasswordDAO.cs" />
+    <Compile Include="DAL\CreateMedicineDao.cs" />
+    <Compile Include="DAL\DiagnosePatientDAO.cs" />
+    <Compile Include="DAL\DiagnosePatientOBJ.cs" />
+    <Compile Include="DAL\FoodDAO.cs" />
+    <Compile Include="DAL\FoodObject.cs" />
+    <Compile Include="DAL\FoodPatientInfoDAO.cs" />
+    <Compile Include="DAL\FoodPatientInfoObject.cs" />
+    <Compile Include="DAL\InsertDiagnosePatientDAO.cs" />
+    <Compile Include="DAL\InsertDiagnosePatientOBJ.cs" />
+    <Compile Include="DAL\LoginDAO.cs" />
+    <Compile Include="DAL\LoginObject.cs" />
+    <Compile Include="DAL\MasterPageDAO.cs" />
+    <Compile Include="DAL\Medicine.cs" />
+    <Compile Include="DAL\MedicinePriceDAO.cs" />
+    <Compile Include="DAL\NurseShiftDAO.cs" />
+    <Compile Include="DAL\NurseShiftObject.cs" />
+    <Compile Include="DAL\onlineAppointmentDAO.cs" />
+    <Compile Include="DAL\onlineAppointmentObject.cs" />
+    <Compile Include="DAL\PatientCareDAO.cs" />
+    <Compile Include="DAL\PatientCareObject.cs" />
+    <Compile Include="DAL\PatientVisitArrivalDAO.cs" />
+    <Compile Include="DAL\QueueAdminDAO.cs" />
+    <Compile Include="DAL\QueueDAO.cs" />
+    <Compile Include="DAL\QueueObject.cs" />
+    <Compile Include="DAL\ReminderNurseDAO.cs" />
+    <Compile Include="DAL\ReminderNurseObject.cs" />
+    <Compile Include="DAL\ReminderPatientDetailsObj.cs" />
+    <Compile Include="DAL\VisitorManagementDAO.cs" />
+    <Compile Include="DAL\VisitorManagementOBJ.cs" />
+    <Compile Include="Diagnose_Patient.aspx.cs">
+      <DependentUpon>Diagnose_Patient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diagnose_Patient.aspx.designer.cs">
+      <DependentUpon>Diagnose_Patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EadTeam.Master.cs">
+      <DependentUpon>EadTeam.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EadTeam.Master.designer.cs">
+      <DependentUpon>EadTeam.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FoodCustomisation.aspx.cs">
+      <DependentUpon>FoodCustomisation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodCustomisation.aspx.designer.cs">
+      <DependentUpon>FoodCustomisation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FoodOrderList.aspx.cs">
+      <DependentUpon>FoodOrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodOrderList.aspx.designer.cs">
+      <DependentUpon>FoodOrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleAuthenticator.aspx.cs">
+      <DependentUpon>GoogleAuthenticator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleAuthenticator.aspx.designer.cs">
+      <DependentUpon>GoogleAuthenticator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicineOnline.aspx.cs">
+      <DependentUpon>MedicineOnline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicineOnline.aspx.designer.cs">
+      <DependentUpon>MedicineOnline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nurses_Shift.aspx.cs">
+      <DependentUpon>Nurses_Shift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nurses_Shift.aspx.designer.cs">
+      <DependentUpon>Nurses_Shift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineAppointment.aspx.cs">
+      <DependentUpon>OnlineAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnlineAppointment.aspx.designer.cs">
+      <DependentUpon>OnlineAppointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientCareList.aspx.cs">
+      <DependentUpon>PatientCareList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientCareList.aspx.designer.cs">
+      <DependentUpon>PatientCareList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Care.aspx.cs">
+      <DependentUpon>Patient_Care.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient_Care.aspx.designer.cs">
+      <DependentUpon>Patient_Care.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueAdministration.aspx.cs">
+      <DependentUpon>QueueAdministration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueueAdministration.aspx.designer.cs">
+      <DependentUpon>QueueAdministration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QueueCheck.aspx.cs">
+      <DependentUpon>QueueCheck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueueCheck.aspx.designer.cs">
+      <DependentUpon>QueueCheck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QueueService.asmx.cs">
+      <DependentUpon>QueueService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReminderNurse.aspx.cs">
+      <DependentUpon>ReminderNurse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReminderNurse.aspx.designer.cs">
+      <DependentUpon>ReminderNurse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReminderPatientSelection.aspx.cs">
+      <DependentUpon>ReminderPatientSelection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReminderPatientSelection.aspx.designer.cs">
+      <DependentUpon>ReminderPatientSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailLink.aspx.cs">
+      <DependentUpon>SendEmailLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendEmailLink.aspx.designer.cs">
+      <DependentUpon>SendEmailLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Take_Daily_Survey.aspx.cs">
+      <DependentUpon>Take_Daily_Survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Take_Daily_Survey.aspx.designer.cs">
+      <DependentUpon>Take_Daily_Survey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testing.aspx.cs">
+      <DependentUpon>Testing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testing.aspx.designer.cs">
+      <DependentUpon>Testing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View_Daily_Survey.aspx.cs">
+      <DependentUpon>View_Daily_Survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View_Daily_Survey.aspx.designer.cs">
+      <DependentUpon>View_Daily_Survey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorManagementAddVisitor.aspx.cs">
+      <DependentUpon>VisitorManagementAddVisitor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisitorManagementAddVisitor.aspx.designer.cs">
+      <DependentUpon>VisitorManagementAddVisitor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorManagement.aspx.cs">
+      <DependentUpon>VisitorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisitorManagement.aspx.designer.cs">
+      <DependentUpon>VisitorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorManagementService.asmx.cs">
+      <DependentUpon>VisitorManagementService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebcamBarcodeReader.ashx.cs">
+      <DependentUpon>WebcamBarcodeReader.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\SMS\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57228</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57228/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EMGU.CV.3.3.0.2824\build\Emgu.CV.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EMGU.CV.3.3.0.2824\build\Emgu.CV.targets'))" />
+    <Error Condition="!Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmguCV.3.1.0.1\build\EmguCV.props'))" />
+    <Error Condition="!Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmguCV.3.1.0.1\build\EmguCV.targets'))" />
+  </Target>
+  <Import Project="..\packages\EMGU.CV.3.3.0.2824\build\Emgu.CV.targets" Condition="Exists('..\packages\EMGU.CV.3.3.0.2824\build\Emgu.CV.targets')" />
+  <Import Project="..\packages\EmguCV.3.1.0.1\build\EmguCV.targets" Condition="Exists('..\packages\EmguCV.3.1.0.1\build\EmguCV.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

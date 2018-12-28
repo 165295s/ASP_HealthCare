@@ -1,0 +1,38 @@
+﻿div.main{
+    text-align: center;
+}
+
+.BtnQueueNumber {
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+.Corners {
+    border-radius: 10px;
+}
+
+div.QueueStatus {
+    width:80%;
+    margin:0 auto;
+    margin-top: 10px;
+    border: 5px solid orange;
+}
+
+tr.QueueNumber {
+    border: 5px solid rgb(66, 199, 247);
+}
+
+table{
+    margin:0 auto;
+    margin-top:10px;
+}
+
+.tb {
+    text-align: center
+}
+
+@media only screen and (max-width: 720px){
+    div.QueueStatus{
+        width:100%;
+    }
+}

@@ -1,0 +1,16 @@
+﻿table.style{
+    width:100%;
+}
+
+div.Contents{
+    text-align:center;
+}
+
+.Corners{
+    border-radius:10px;
+}
+
+input.Cancel{
+    height:48px;
+    width:95px;
+}

@@ -1,0 +1,26 @@
+﻿.Corners {
+    border-radius: 10px;
+}
+
+div.Contents{
+    text-align:center;
+}
+
+div.tableDiv{
+    align-content:center;
+}
+
+table{
+    margin:0 auto;
+}
+
+table tr td{
+    height:37px;
+    text-align:unset;
+
+}
+
+td.RightAlign{
+    text-align:right;
+    padding-right:5px;
+}

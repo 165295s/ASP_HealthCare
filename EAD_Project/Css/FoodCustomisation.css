@@ -1,0 +1,18 @@
+﻿body {
+}
+
+div#title {
+    text-align: center;
+}
+td#RequiredLabel{
+    color: red;
+}
+#ErrorLabelNRIC{
+    color: red;
+}
+#ErrorLabelTiming{
+    color: red;
+}
+#ErrorLabelFood{
+    color: red;
+}

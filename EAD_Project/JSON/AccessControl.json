@@ -1,0 +1,45 @@
+﻿{
+  "accessRight": [
+    {
+      "role": "Admin",
+      "page": [
+        "MainPage.aspx",
+        "Login.aspx",
+        "VisitorManagement.aspx",
+        "VisitorManagementAddVisitor.aspx",
+        "QueueAdministration.aspx",
+        "QueueCheck.aspx",
+        "ResetPassword.aspx",
+        "SendEmailLink.aspx",
+        "Custom_Error_Page.aspx"
+
+      ]
+    },
+    {
+      "role": "Doctor",
+      "page": [ "MainPage.aspx", "Login.aspx", "Take_Daily_Survey.aspx", "View_Daily_Survey.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+    },
+    {
+
+      "role": "Patient",
+      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+
+    },
+    {
+      "role": "Visitor",
+      "page": [ "MainPage.aspx", "Login.aspx", "MedicineOnline.aspx", "Checkout.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+
+    },
+    {
+      "role": "Nurse",
+      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+    },
+    {
+      "role": "null",
+      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+
+    }
+  ]
+}
+
+

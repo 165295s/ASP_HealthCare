@@ -1,0 +1,573 @@
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.exe
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.exe.config
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.rsp
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csi.exe
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csi.rsp
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.AppContext.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.exe
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.exe.config
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.rsp
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.dll.config
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.pdb
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csprojResolveAssemblyReference.cache
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.pdb
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Newtonsoft.Json.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Newtonsoft.Json.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.pdb
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\concrt140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\cvextern.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\msvcp140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\opencv_ffmpeg330_64.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\vcruntime140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\concrt140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\cvextern.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\msvcp140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\opencv_ffmpeg330.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\vcruntime140.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Imaging.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Math.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Forms.Viewer.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.WPF.Viewer.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.World.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.GLControl.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ZedGraph.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Imaging.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Math.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.World.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.GLControl.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ZedGraph.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.pdb
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.pdb
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.xml
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\de\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\es\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\fr\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\hu\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\it\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ja\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\pt\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ru\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\sk\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\sv\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\tr\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zh-cn\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zh-tw\ZedGraph.resources.dll
+C:\ead\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Google.Authenticator.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\concrt140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\msvcp140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\opencv_ffmpeg330_64.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\vcruntime140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\concrt140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\msvcp140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\opencv_ffmpeg330.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\vcruntime140.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.exe
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.exe.config
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csc.rsp
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csi.exe
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\csi.rsp
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.AppContext.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.exe
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.exe.config
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\vbc.rsp
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x64\cvextern.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\x86\cvextern.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.dll.config
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\EAD_Project.pdb
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Imaging.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Math.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Forms.Viewer.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.WPF.Viewer.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.World.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Google.Authenticator.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Newtonsoft.Json.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.GLControl.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ZedGraph.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Imaging.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Math.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Emgu.CV.World.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\Newtonsoft.Json.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\OpenTK.GLControl.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.pdb
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\SendGrid.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ZedGraph.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.pdb
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.pdb
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zxing.presentation.xml
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\de\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\es\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\fr\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\hu\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\it\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ja\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\pt\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\ru\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\sk\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\sv\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\tr\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zh-cn\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\bin\zh-tw\ZedGraph.resources.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csprojResolveAssemblyReference.cache
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CoreCompileInputs.cache
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CopyComplete
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.dll
+C:\NYP Projects\EADP\EAD_SEM_PROJECT\EAD_SEM_PROJECT\EAD_Project\EAD_Project\obj\Debug\EAD_Project.pdb
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\cvextern.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\cvextern.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\concrt140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\msvcp140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\opencv_ffmpeg330_64.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\vcruntime140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\concrt140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\msvcp140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\opencv_ffmpeg330.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\vcruntime140.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe.config
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.rsp
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.exe
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.rsp
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.AppContext.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe.config
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.rsp
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll.config
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.pdb
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Forms.Viewer.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.WPF.Viewer.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Google.Authenticator.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.pdb
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.pdb
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.pdb
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.xml
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\de\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\es\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\fr\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\hu\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\it\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ja\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\pt\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ru\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sk\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sv\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\tr\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-cn\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-tw\ZedGraph.resources.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csprojAssemblyReference.cache
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CoreCompileInputs.cache
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CopyComplete
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.dll
+C:\Users\Thura_98\Desktop\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.pdb
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\concrt140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\cvextern.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\msvcp140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\opencv_ffmpeg330_64.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\vcruntime140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\concrt140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\cvextern.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\msvcp140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\opencv_ffmpeg330.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\vcruntime140.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe.config
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.rsp
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.exe
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.rsp
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.AppContext.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe.config
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.rsp
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll.config
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.pdb
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Forms.Viewer.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.WPF.Viewer.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Google.Authenticator.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.pdb
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.pdb
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.pdb
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.xml
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\de\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\es\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\fr\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\hu\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\it\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ja\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\pt\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ru\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sk\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sv\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\tr\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-cn\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-tw\ZedGraph.resources.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csprojAssemblyReference.cache
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CoreCompileInputs.cache
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CopyComplete
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.dll
+C:\EADP\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.pdb
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\concrt140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\cvextern.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\msvcp140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\opencv_ffmpeg330_64.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x64\vcruntime140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\concrt140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\cvextern.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\msvcp140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\opencv_ffmpeg330.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\x86\vcruntime140.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.exe.config
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csc.rsp
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.exe
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\csi.rsp
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.exe.config
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\vbc.rsp
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll.config
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\EAD_Project.pdb
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Forms.Viewer.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.WPF.Viewer.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Google.Authenticator.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Imaging.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Math.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\AForge.Video.DirectShow.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeGenerator.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.BarcodeReader.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Camera.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.ImageCore.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.OCR.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.PDF.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Dynamsoft.Twain.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.UI.GL.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Emgu.CV.World.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\OpenTK.GLControl.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.pdb
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\SendGrid.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ZedGraph.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.pdb
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.pdb
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zxing.presentation.xml
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sk\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\sv\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ja\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\it\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\ru\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-cn\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\pt\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\zh-tw\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\hu\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\de\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\fr\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\es\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\bin\tr\ZedGraph.resources.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.csproj.CopyComplete
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.dll
+\\Mac\Home\Desktop\AK COPY WITH BRUTE FORCE, NO ACL\ASP_Project\NYP_EADP_2017-master\EAD_Project\EAD_Project\obj\Debug\EAD_Project.pdb

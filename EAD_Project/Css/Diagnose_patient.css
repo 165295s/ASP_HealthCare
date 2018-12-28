@@ -1,0 +1,47 @@
+﻿.title {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+
+#TextArea1 {
+    
+    width: 300px;
+    display: block;
+    text-align: left;
+}
+
+
+#TextArea2 {
+    height: 100px;
+    width: 100px;
+}
+
+
+#TextArea3 {
+    height: 100px;
+    width: 100px;
+}
+
+
+#TextArea4 {
+    height: 100px;
+    width: 100px;
+}
+
+td {
+    padding: 10px;
+}
+
+
+.NotesLabel {
+    display: block;
+    text-align: right;
+}

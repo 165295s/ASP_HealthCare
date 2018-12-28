@@ -1,0 +1,15 @@
+﻿div.Contents {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+div.title {
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    div.Contents {
+        width: 100%;
+    }
+}
