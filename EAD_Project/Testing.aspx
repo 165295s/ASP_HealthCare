@@ -15,6 +15,7 @@
     </script>
 </head>
 <body>
+            /*test comment  */
 
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager2" runat="server"></asp:ScriptManager>

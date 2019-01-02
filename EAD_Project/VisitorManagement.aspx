@@ -8,7 +8,6 @@
                 BindGridView();
             }, 1000)
         );
-
         function BindGridView() {
             $.ajax({
                 type: "POST",
