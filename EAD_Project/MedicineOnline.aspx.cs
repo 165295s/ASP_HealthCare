@@ -7,7 +7,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
- using EAD_Project.DAL;
+using EAD_Project.Controller;
+using EAD_Project.DAL;
 
 
 namespace EAD_Project
@@ -175,20 +176,47 @@ namespace EAD_Project
 
         }
 
+
+        
+
         protected void Button9_Click(object sender, EventArgs e)
         {
+
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Updating of Medicine Failed";
+            string ActionLS = "Updating of Medicine Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            MedicineOnlineController MO = new MedicineOnlineController();
+
+
             if (TextBox16.Text == "" || TextBox17.Text == "")
             {
+                //log fail
+                MO.AuditLogMedicineFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
+
                 Label20.Text = "*Pls Select A Medicine to Update*";
             }
             else if (Convert.ToInt32(TextBox17.Text) < 1)
             {
+                //log fail
+                MO.AuditLogMedicineFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
+
                 Label20.Text = "*Quantity cannot be less than 1*";
 
             }
             else
             {   Double Price;
                 Label20.ForeColor = System.Drawing.Color.Green;
+
+
+                //log success
+                MO.AuditLogMedicineSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+
+
                 Label20.Text = "Item Successfully Updated:)";
                 String MedName = TextBox16.Text.ToString();
                 int Quantity = Convert.ToInt32(TextBox17.Text);
@@ -217,6 +245,7 @@ namespace EAD_Project
 
                 // mpd.DeleteMedicinePrice(MedName);
 
+                
 
                 medicine = cmd.getMedCart(Session["ssLogin"].ToString(), MedName, Quantity);
 
@@ -227,15 +256,50 @@ namespace EAD_Project
             }
         }
 
+        protected string GetIPAddress()
+        {
+            System.Web.HttpContext context = System.Web.HttpContext.Current;
+            string ipAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+
+            if (!string.IsNullOrEmpty(ipAddress))
+            {
+                string[] addresses = ipAddress.Split(',');
+                if (addresses.Length != 0)
+                {
+                    return addresses[0];
+                }
+            }
+
+            return context.Request.ServerVariables["REMOTE_ADDR"];
+        }
+
         protected void Button10_Click(object sender, EventArgs e)
         {
+
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Deletion of Medicine Failed";
+            string ActionLS = "Deletion of Medicine Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            MedicineOnlineController MO = new MedicineOnlineController();
+
             if (TextBox16.Text == "" || TextBox17.Text == "")
             {
+                //log fail
+                MO.AuditLogMedicineFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
+
                 Label20.Text = "*Pls Select A Medicine to Delete*";
             }
             else
             {
                 Label20.ForeColor = System.Drawing.Color.Green;
+
+                //log success
+                MO.AuditLogMedicineSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+
                 Label20.Text = "*Item Successfully Deleted*";
 
                 String MedName = TextBox16.Text.ToString();
@@ -254,17 +318,21 @@ namespace EAD_Project
 
         protected void Button11_Click(object sender, EventArgs e)
         {
+
             if (GridView1.Rows.Count == 0)
             {
+               
+
                 string myStringVariable = "Please Buy Something Before You Checkout!";
                 ClientScript.RegisterStartupScript(this.GetType(), "Error", "alert('" + myStringVariable + "');", true);
             }
             else
             {
+                
 
-                 // Session["MedicineName"] = Label2.Text.ToString();
+                // Session["MedicineName"] = Label2.Text.ToString();
 
-                  //Session["Quantity"] = Convert.ToInt32(TextBox1.Text);
+                //Session["Quantity"] = Convert.ToInt32(TextBox1.Text);
 
                 Response.Redirect("Checkout.aspx");
             }

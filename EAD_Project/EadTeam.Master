@@ -68,6 +68,8 @@
                             <li><asp:HyperLink ID="HyperLinkPatientVisitDeparture" runat="server" NavigateUrl="~/CaptureBarcodePatientVisitDeparture.aspx" Target="_blank">Patient Visit Check Out</asp:HyperLink></li>
                          </ul>
                     </li>
+                  <li><asp:HyperLink ID="HyperLinkAdminFunc3" runat="server" Visible="False" NavigateUrl="~/AdminLogExport.aspx">View Audit Logs </asp:HyperLink></li>
+
                 </ul>
                 </div>
             </div>

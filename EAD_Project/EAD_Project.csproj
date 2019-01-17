@@ -155,11 +155,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminLogExport.aspx" />
     <Content Include="App_Data\EAD_Team_DB.mdf" />
     <Content Include="App_Data\EAD_Team_DB_log.ldf">
       <DependentUpon>EAD_Team_DB.mdf</DependentUpon>
     </Content>
     <Content Include="AssignNurses.aspx" />
+    <Content Include="AuditLogTrail.aspx" />
+    <Content Include="AuditTrailLog2.aspx" />
     <Content Include="CaptureBarcode.aspx" />
     <Content Include="CaptureBarcodePatientVisitDeparture.aspx" />
     <Content Include="Checkout.aspx" />
@@ -279,12 +282,33 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogExport.aspx.cs">
+      <DependentUpon>AdminLogExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogExport.aspx.designer.cs">
+      <DependentUpon>AdminLogExport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AssignNurses.aspx.cs">
       <DependentUpon>AssignNurses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AssignNurses.aspx.designer.cs">
       <DependentUpon>AssignNurses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditLogTrail.aspx.cs">
+      <DependentUpon>AuditLogTrail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditLogTrail.aspx.designer.cs">
+      <DependentUpon>AuditLogTrail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailLog2.aspx.cs">
+      <DependentUpon>AuditTrailLog2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditTrailLog2.aspx.designer.cs">
+      <DependentUpon>AuditTrailLog2.aspx</DependentUpon>
     </Compile>
     <Compile Include="BarcodeReaderDll\BarcodeCommon.cs" />
     <Compile Include="BarcodeReaderDll\BarrecodeReaderRepo.cs" />
@@ -314,8 +338,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Controller\AuditTrailController.cs" />
+    <Compile Include="Controller\DiagnosePatientController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\MasterPageController.cs" />
+    <Compile Include="Controller\MedicineOnlineController.cs" />
+    <Compile Include="Controller\OnlineAppointmentController.cs" />
     <Compile Include="Controller\PatientVisitArrivalController.cs" />
     <Compile Include="Controller\QueueAdminController.cs" />
     <Compile Include="Controller\ResetPasswordController.cs" />
@@ -329,6 +357,7 @@
     </Compile>
     <Compile Include="DAL\AssignNursesDAO.cs" />
     <Compile Include="DAL\AssignNursesObject.cs" />
+    <Compile Include="DAL\AuditTrailDAO.cs" />
     <Compile Include="DAL\ChangePasswordDAO.cs" />
     <Compile Include="DAL\CreateMedicineDao.cs" />
     <Compile Include="DAL\DiagnosePatientDAO.cs" />
@@ -346,8 +375,8 @@
     <Compile Include="DAL\MedicinePriceDAO.cs" />
     <Compile Include="DAL\NurseShiftDAO.cs" />
     <Compile Include="DAL\NurseShiftObject.cs" />
-    <Compile Include="DAL\onlineAppointmentDAO.cs" />
-    <Compile Include="DAL\onlineAppointmentObject.cs" />
+    <Compile Include="DAL\OnlineAppointmentDAO.cs" />
+    <Compile Include="DAL\OnlineAppointmentObject.cs" />
     <Compile Include="DAL\PatientCareDAO.cs" />
     <Compile Include="DAL\PatientCareObject.cs" />
     <Compile Include="DAL\PatientVisitArrivalDAO.cs" />

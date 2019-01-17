@@ -14,6 +14,7 @@ using System.Text;
 using SendGrid.Helpers.Mail;
 using SendGrid;
 using System.IO;
+using EAD_Project.Controller;
 
 namespace EAD_Project
 {
@@ -95,16 +96,49 @@ namespace EAD_Project
 
         }
 
+        protected string GetIPAddress()
+        {
+            System.Web.HttpContext context = System.Web.HttpContext.Current;
+            string ipAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+
+            if (!string.IsNullOrEmpty(ipAddress))
+            {
+                string[] addresses = ipAddress.Split(',');
+                if (addresses.Length != 0)
+                {
+                    return addresses[0];
+                }
+            }
+
+            return context.Request.ServerVariables["REMOTE_ADDR"];
+        }
+
+
         protected void Button2_Click(object sender, EventArgs e)
         {
+
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Purchase Medicine Failed";
+            string ActionLS = "Purchase Medicine Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            MedicineOnlineController MO = new MedicineOnlineController();
+
+
             if (TextBox7.Text == "" || TextBox8.Text == "" || TextBox9.Text == "" || TextBox10.Text == "")
             {
+                //log fail
+                MO.AuditLogMedicineFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
+
                 string myStringVariable = "Pls Enter All Fields Before ComFirming Payment";
                 ClientScript.RegisterStartupScript(this.GetType(), "Error", "alert('" + myStringVariable + "');", true);
             }
             else if (!System.Text.RegularExpressions.Regex.IsMatch(TextBox7.Text, "^[a-zA-Z]"))
             {
-                string myStringVariable = "Please enter onli letters for Name";
+                string myStringVariable = "Please enter only letters for Name";
 
                 ClientScript.RegisterStartupScript(this.GetType(), "Error", "alert('" + myStringVariable + "');", true);
             }
@@ -135,6 +169,8 @@ namespace EAD_Project
                 String BankAccNumber = TextBox10.Text.Trim();
                 Session["BankAccnumber"] = BankAccNumber;
 
+                //log success
+                MO.AuditLogMedicineSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
 
                 Response.Redirect("GoogleAuthenticator.aspx");
 

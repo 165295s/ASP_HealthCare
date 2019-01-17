@@ -1,4 +1,5 @@
-﻿using EAD_Project.DAL;
+﻿using EAD_Project.Controller;
+using EAD_Project.DAL;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -12,7 +13,7 @@ namespace EAD_Project
 {
     public partial class OnlineAppointment : System.Web.UI.Page
     {
-        onlineAppointmentDAO oDAO = new onlineAppointmentDAO();
+        OnlineAppointmentDAO oDAO = new OnlineAppointmentDAO();
         protected void Page_Load(object sender, EventArgs e)
         {
             LabelSpecify.Visible = false;
@@ -32,7 +33,7 @@ namespace EAD_Project
 
             if (Page.IsPostBack == false)
             {
-                List<onlineAppointmentObject> list = new List<onlineAppointmentObject>();
+                List<OnlineAppointmentObject> list = new List<OnlineAppointmentObject>();
                 list = oDAO.getDoctorName();
                 for (int i=0; i<list.Count; i++)
                 {
@@ -44,12 +45,12 @@ namespace EAD_Project
 
             if (!this.IsPostBack)
             {
-                onlineAppointmentDAO myTD = new onlineAppointmentDAO();
+                OnlineAppointmentDAO myTD = new OnlineAppointmentDAO();
 
             }
 
-            onlineAppointmentDAO onlineApp = new onlineAppointmentDAO();
-            List<onlineAppointmentObject> tdList = new List<onlineAppointmentObject>();
+            OnlineAppointmentDAO onlineApp = new OnlineAppointmentDAO();
+            List<OnlineAppointmentObject> tdList = new List<OnlineAppointmentObject>();
             tdList = onlineApp.getApptDetails();
             GridViewApptDetails.DataSource = tdList;
             GridViewApptDetails.DataBind();
@@ -108,7 +109,16 @@ namespace EAD_Project
 
         protected void ButtonBookAppointment_Click(object sender, EventArgs e)
         {
-            onlineAppointmentDAO onlineApp = new onlineAppointmentDAO();
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Book Appointment Failed";
+            string ActionLS = "Book Appointment Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            OnlineAppointmentController AC = new OnlineAppointmentController();
+            OnlineAppointmentDAO onlineApp = new OnlineAppointmentDAO();
             if (TextBoxDocShift.Text != "" && TextBoxDate.Text != "" && TextBoxTiming.Text != "" && TextBoxReason.Text != "")
             {
                 if (TextBoxOthers.Text != "")
@@ -121,6 +131,10 @@ namespace EAD_Project
                     else
                     {
                         onlineApp.InsertTD(TextBoxDocShift.Text, TextBoxDate.Text, TextBoxTiming.Text, TextBoxReason.Text + TextBoxOthers.Text);
+                        //log success
+                        AC.AuditLogAppointmentSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+
+
                         Session["SuccessfulMessage"] = "Your appointment is successfully booked!";
                         Response.Redirect("OnlineAppointment.aspx");
                         
@@ -132,12 +146,17 @@ namespace EAD_Project
                 {
                     if (onlineApp.checkAppt(TextBoxDocShift.Text, TextBoxTiming.Text, TextBoxDate.Text) == 1)
                     {
+                        //log fail
+                        AC.AuditLogAppointmentFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
                         LabelErrorMsg.Text = "Doctor is booked!";
                     }
                     else
                     {
                         onlineApp.InsertTD(TextBoxDocShift.Text, TextBoxDate.Text, TextBoxTiming.Text, TextBoxReason.Text);
+                        AC.AuditLogAppointmentSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+
                         Session["SuccessfulMessage"] = "Your appointment is successfully booked!";
+
                         Response.Redirect("OnlineAppointment.aspx");
                     }
                     
@@ -175,5 +194,23 @@ namespace EAD_Project
 
            
         }
+
+        protected string GetIPAddress()
+        {
+            System.Web.HttpContext context = System.Web.HttpContext.Current;
+            string ipAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+
+            if (!string.IsNullOrEmpty(ipAddress))
+            {
+                string[] addresses = ipAddress.Split(',');
+                if (addresses.Length != 0)
+                {
+                    return addresses[0];
+                }
+            }
+
+            return context.Request.ServerVariables["REMOTE_ADDR"];
+        }
+
     }
 }

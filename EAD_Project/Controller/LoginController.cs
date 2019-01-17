@@ -46,6 +46,20 @@ namespace EAD_Project.Controller
 
             LoginDAO.plusOneToAttempt(userId);
         }
-       
+
+        public void AuditLogLoginFail(string userid, DateTime TimeOfAction, string CertID, string ActionLF, string EventID, string IpAddress)
+        {
+            LoginDAO LD = new LoginDAO();
+            LD.auditLogLoginFail(userid, TimeOfAction, CertID, ActionLF, EventID, IpAddress);
+        }
+
+        public void AuditLogLoginSuccess(string userid, DateTime TimeOfAction, string CertID, string ActionLS, string EventID, string IpAddress)
+        {
+            LoginDAO LD = new LoginDAO();
+            LD.auditLogLoginSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+        }
+
+        
+
     }
 }

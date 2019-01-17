@@ -1,4 +1,5 @@
-﻿using EAD_Project.DAL;
+﻿using EAD_Project.Controller;
+using EAD_Project.DAL;
 using System;
 using System.Collections.Generic;
 using System.Web.UI;
@@ -26,11 +27,45 @@ namespace EAD_Project
             
         }
 
+        protected string GetIPAddress()
+        {
+            System.Web.HttpContext context = System.Web.HttpContext.Current;
+            string ipAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+
+            if (!string.IsNullOrEmpty(ipAddress))
+            {
+                string[] addresses = ipAddress.Split(',');
+                if (addresses.Length != 0)
+                {
+                    return addresses[0];
+                }
+            }
+
+            return context.Request.ServerVariables["REMOTE_ADDR"];
+        }
+
         protected void BtnInsert(object sender, EventArgs e)
         {
+
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Selection of Medicine Failed";
+            string ActionLS = "Selection of Medicine Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            DiagnosePatientController PC = new DiagnosePatientController();
+
+
+
             GridView1.DataSource = "";
             GridView1.DataBind();
             string AllCheckedItems2 = "";
+
+            //log success
+            PC.AuditLogDiagnoseSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
+
             string myStringVariable = "Insert/ Update SUCCESSFUL";
             foreach (ListItem item in CheckBoxList1.Items)
             {
@@ -176,8 +211,21 @@ namespace EAD_Project
 
         protected void btnDelete_Click(object sender, EventArgs e)
         {
+
+            string userid = Session["ssLogin"].ToString();
+            string ActionLF = "Deletion of Medicine Failed";
+            string ActionLS = "Deletion of Medicine Success";
+            DateTime TimeOfAction = DateTime.Now;
+            string EventID = "null";
+            string CertID = "null";
+            string IpAddress = GetIPAddress();
+
+            DiagnosePatientController PC = new DiagnosePatientController();
+
             GridView1.DataSource = "";
             GridView1.DataBind();
+            //log success
+            PC.AuditLogDiagnoseSuccess(userid, TimeOfAction, CertID, ActionLS, EventID, IpAddress);
             string myStringVariable = "Delete Successful";
             idpDAO.DeleteDiagnose(ddlID.SelectedItem.Text);
             ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + myStringVariable + "');", true);

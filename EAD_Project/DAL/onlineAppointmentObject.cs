@@ -5,9 +5,9 @@ using System.Web;
 
 namespace EAD_Project.DAL
 {
-    public class onlineAppointmentObject
+    public class OnlineAppointmentObject
     {
-        public onlineAppointmentObject()
+        public OnlineAppointmentObject()
         {
 
         }

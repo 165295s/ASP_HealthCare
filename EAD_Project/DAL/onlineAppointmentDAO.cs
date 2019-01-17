@@ -9,7 +9,7 @@ using System.Web;
 
 namespace EAD_Project.DAL
 {
-    public class onlineAppointmentDAO
+    public class OnlineAppointmentDAO
     {
 
         string DBConnect = ConfigurationManager.ConnectionStrings["ConnStr"].ConnectionString;
@@ -81,9 +81,9 @@ namespace EAD_Project.DAL
             return ApptList;
         }*/
 
-        public List<onlineAppointmentObject> getDoctorName()
+        public List<OnlineAppointmentObject> getDoctorName()
         {
-            List<onlineAppointmentObject> list = new List<onlineAppointmentObject>();
+            List<OnlineAppointmentObject> list = new List<OnlineAppointmentObject>();
             DataSet ds = new DataSet();
             conn.Open();
 
@@ -95,7 +95,7 @@ namespace EAD_Project.DAL
             {
                 foreach (DataRow row in ds.Tables["OnlineApptTbl"].Rows)
                 {
-                    onlineAppointmentObject obj = new onlineAppointmentObject();
+                    OnlineAppointmentObject obj = new OnlineAppointmentObject();
                     obj.doctorName = row["Name"].ToString();
                     list.Add(obj);
                 }
@@ -109,9 +109,9 @@ namespace EAD_Project.DAL
 
         }
 
-        public List<onlineAppointmentObject> getTiming(string DocName)
+        public List<OnlineAppointmentObject> getTiming(string DocName)
         {
-            List<onlineAppointmentObject> list = new List<onlineAppointmentObject>();
+            List<OnlineAppointmentObject> list = new List<OnlineAppointmentObject>();
             DataSet ds = new DataSet();
             conn.Open();
 
@@ -123,7 +123,7 @@ namespace EAD_Project.DAL
             {
                 foreach (DataRow row in ds.Tables["OnlineApptTbl"].Rows)
                 {
-                    onlineAppointmentObject obj = new onlineAppointmentObject();
+                    OnlineAppointmentObject obj = new OnlineAppointmentObject();
                     obj.date = row["timing"].ToString();
                     list.Add(obj);
                 }
@@ -137,9 +137,9 @@ namespace EAD_Project.DAL
 
         }
 
-        public List<onlineAppointmentObject> getDate(string DocName)
+        public List<OnlineAppointmentObject> getDate(string DocName)
         {
-            List<onlineAppointmentObject> list = new List<onlineAppointmentObject>();
+            List<OnlineAppointmentObject> list = new List<OnlineAppointmentObject>();
             DataSet ds = new DataSet();
             conn.Open();
 
@@ -151,7 +151,7 @@ namespace EAD_Project.DAL
             {
                 foreach (DataRow row in ds.Tables["OnlineApptTbl"].Rows)
                 {
-                    onlineAppointmentObject obj = new onlineAppointmentObject();
+                    OnlineAppointmentObject obj = new OnlineAppointmentObject();
                     obj.date = row["date"].ToString();
                     list.Add(obj);
                 }
@@ -165,9 +165,9 @@ namespace EAD_Project.DAL
 
         }
 
-        public List<onlineAppointmentObject> getReason(string DocName)
+        public List<OnlineAppointmentObject> getReason(string DocName)
         {
-            List<onlineAppointmentObject> list = new List<onlineAppointmentObject>();
+            List<OnlineAppointmentObject> list = new List<OnlineAppointmentObject>();
             DataSet ds = new DataSet();
             conn.Open();
 
@@ -179,7 +179,7 @@ namespace EAD_Project.DAL
             {
                 foreach (DataRow row in ds.Tables["OnlineApptTbl"].Rows)
                 {
-                    onlineAppointmentObject obj = new onlineAppointmentObject();
+                    OnlineAppointmentObject obj = new OnlineAppointmentObject();
                     obj.date = row["reason"].ToString();
                     list.Add(obj);
                 }
@@ -193,12 +193,12 @@ namespace EAD_Project.DAL
 
         }
 
-        public List<onlineAppointmentObject> getApptDetails()
+        public List<OnlineAppointmentObject> getApptDetails()
         {
             SqlDataAdapter da;
             DataSet ds = new DataSet();
 
-            List<onlineAppointmentObject> onlineAppointment = new List<onlineAppointmentObject>();
+            List<OnlineAppointmentObject> onlineAppointment = new List<OnlineAppointmentObject>();
 
             string DBConnect = ConfigurationManager.ConnectionStrings["ConnStr"].ConnectionString;
 
@@ -230,7 +230,7 @@ namespace EAD_Project.DAL
 
                 foreach (DataRow row in ds.Tables["GridViewApptDetails"].Rows)
                 {
-                    onlineAppointmentObject objAppt = new onlineAppointmentObject();
+                    OnlineAppointmentObject objAppt = new OnlineAppointmentObject();
                     objAppt.doctorName = Convert.ToString(row["doctorName"]);
                     objAppt.reason = row["reason"].ToString();
                     objAppt.date = Convert.ToString(row["date"]);
@@ -281,6 +281,44 @@ namespace EAD_Project.DAL
             int CheckAppointment = Convert.ToInt32(com.ExecuteScalar().ToString());
             conn.Close();
             return CheckAppointment;
+        }
+
+        public int auditLogAppointmentNew(string UserName, DateTime TimeOfAction, string EventID, string Action, string CertifiedRollsId, string IpAddress)
+        {
+            int result = 0;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(DBConnect))
+                {
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO auditLogs(userName, action, timeOfAction, eventsId, certifiedRollsId, IpAddress) VALUES(@userName, @action, @timeOfAction, @eventsID, @certifiedRollsId, @IpAddress)"))
+                    {
+                        using (SqlDataAdapter sda = new SqlDataAdapter())
+                        {
+                            cmd.CommandType = CommandType.Text;
+
+                            cmd.Parameters.AddWithValue("@userName", UserName);
+                            cmd.Parameters.AddWithValue("@action", Action);
+                            cmd.Parameters.AddWithValue("@timeOfAction", TimeOfAction);
+                            cmd.Parameters.AddWithValue("@eventsID", EventID);
+                            cmd.Parameters.AddWithValue("@certifiedRollsId", CertifiedRollsId);
+                            cmd.Parameters.AddWithValue("@IpAddress", IpAddress);
+
+                            cmd.Connection = con;
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            return result;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+
         }
 
 

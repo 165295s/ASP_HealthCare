@@ -5,12 +5,16 @@ using System.Web;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Text;
+using System.Data;
 
 namespace EAD_Project.DAL
 {
     public class LoginDAO
     {   
         SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnStr"].ConnectionString);
+
+        static string Test = ConfigurationManager.ConnectionStrings["ConnStr"].ToString();
+
         LoginObject L = new LoginObject();
         public LoginObject UserLogin(string role, string UserName)
         {
@@ -103,6 +107,90 @@ namespace EAD_Project.DAL
 
 
         }
+
+        //KENNETH CODE
+        public int auditLogLoginFail(string userid, DateTime TimeOfAction, string CertID, string ActionLF, string EventID, string IpAddress)
+        {
+            int result = 0;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(Test))
+                {
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO AuditLogs(userName, action, timeOfAction, eventsId, certifiedRollsId, IpAddress) VALUES(@userName, @action, @timeOfAction, @EventsID, @CertID, @IpAddress)"))
+                    {
+                        using (SqlDataAdapter sda = new SqlDataAdapter())
+                        {
+                            cmd.CommandType = CommandType.Text;
+
+                            cmd.Parameters.AddWithValue("@userName", userid);
+                            cmd.Parameters.AddWithValue("@action", ActionLF);
+                            cmd.Parameters.AddWithValue("@timeOfAction", TimeOfAction);
+                            cmd.Parameters.AddWithValue("@EventsID", EventID);
+                            cmd.Parameters.AddWithValue("@CertID", CertID);
+                            cmd.Parameters.AddWithValue("@IpAddress", IpAddress);
+
+                            cmd.Connection = con;
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            return result;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+
+        }
+
+        public int auditLogLoginSuccess(string userid, DateTime TimeOfAction, string CertID, string ActionLS, string EventID, string IpAddress)
+        {
+            int result = 0;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(Test))
+                {
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO AuditLogs(userName, action, timeOfAction, eventsId, certifiedRollsId, IpAddress) VALUES(@userName, @action, @timeOfAction, @EventsID, @CertID, @IpAddress)"))
+                    {
+                        using (SqlDataAdapter sda = new SqlDataAdapter())
+                        {
+                            cmd.CommandType = CommandType.Text;
+
+                            cmd.Parameters.AddWithValue("@userName", userid);
+                            cmd.Parameters.AddWithValue("@action", ActionLS);
+                            cmd.Parameters.AddWithValue("@timeOfAction", TimeOfAction);
+                            cmd.Parameters.AddWithValue("@EventsID", EventID);
+                            cmd.Parameters.AddWithValue("@CertID", CertID);
+                            cmd.Parameters.AddWithValue("@IpAddress", IpAddress);
+
+                            cmd.Connection = con;
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            return result;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+
+        }
+
+        
+
+
+
+
+
+        //RUBBISH BELOW
         /* public void plusOneToAttempt(string userId)
          {
 

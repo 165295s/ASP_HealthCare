@@ -58,7 +58,8 @@ namespace EAD_Project
         protected void ImgBtnLogOut_Click(object sender, ImageClickEventArgs e)
         {
             Session["User"] = null;
-            Response.Redirect("~/MainPage.aspx");
+            
+            Response.Redirect("~/AuditLogTrail.aspx");
         }
 
         //CHRIS CODE BELOW

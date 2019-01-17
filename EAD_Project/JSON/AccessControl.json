@@ -11,7 +11,9 @@
         "QueueCheck.aspx",
         "ResetPassword.aspx",
         "SendEmailLink.aspx",
-        "Custom_Error_Page.aspx"
+        "Custom_Error_Page.aspx",
+        "AdminLogExport.aspx",
+        "AuditTrailLog2.aspx"
 
       ]
     },
@@ -22,12 +24,12 @@
     {
 
       "role": "Patient",
-      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx","OnlineAppointment.aspx" ]
 
     },
     {
       "role": "Visitor",
-      "page": [ "MainPage.aspx", "Login.aspx", "MedicineOnline.aspx", "Checkout.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+      "page": [ "MainPage.aspx", "Login.aspx", "MedicineOnline.aspx", "Checkout.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx","AuditLogTrail.aspx" ]
 
     },
     {

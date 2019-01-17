@@ -11,6 +11,7 @@ namespace EAD_Project.DAL
 {
     public class DiagnosePatientDAO
     {
+        string DBConnect = ConfigurationManager.ConnectionStrings["ConnStr"].ConnectionString;
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnStr"].ConnectionString);
         DiagnosePatientOBJ DPobj = new DiagnosePatientOBJ();
         
@@ -235,6 +236,82 @@ namespace EAD_Project.DAL
             con.Close();
 
             return myTD;
+        }
+
+        public int auditLogDiagnoseDelete(string UserName, DateTime TimeOfAction, string EventID, string Action, string CertifiedRollsId, string IpAddress)
+        {
+            int result = 0;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(DBConnect))
+                {
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO auditLogs(userName, action, timeOfAction, eventsId, certifiedRollsId, IpAddress) VALUES(@userName, @action, @timeOfAction, @eventsID, @certifiedRollsId, @IpAddress)"))
+                    {
+                        using (SqlDataAdapter sda = new SqlDataAdapter())
+                        {
+                            cmd.CommandType = CommandType.Text;
+
+                            cmd.Parameters.AddWithValue("@userName", UserName);
+                            cmd.Parameters.AddWithValue("@action", Action);
+                            cmd.Parameters.AddWithValue("@timeOfAction", TimeOfAction);
+                            cmd.Parameters.AddWithValue("@eventsID", EventID);
+                            cmd.Parameters.AddWithValue("@certifiedRollsId", CertifiedRollsId);
+                            cmd.Parameters.AddWithValue("@IpAddress", IpAddress);
+
+                            cmd.Connection = con;
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            return result;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+
+        }
+
+        public int auditLogDiagnoseNew(string UserName, DateTime TimeOfAction, string EventID, string Action, string CertifiedRollsId, string IpAddress)
+        {
+            int result = 0;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(DBConnect))
+                {
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO auditLogs(userName, action, timeOfAction, eventsId, certifiedRollsId, IpAddress) VALUES(@userName, @action, @timeOfAction, @eventsID, @certifiedRollsId, @IpAddress)"))
+                    {
+                        using (SqlDataAdapter sda = new SqlDataAdapter())
+                        {
+                            cmd.CommandType = CommandType.Text;
+
+                            cmd.Parameters.AddWithValue("@userName", UserName);
+                            cmd.Parameters.AddWithValue("@action", Action);
+                            cmd.Parameters.AddWithValue("@timeOfAction", TimeOfAction);
+                            cmd.Parameters.AddWithValue("@eventsID", EventID);
+                            cmd.Parameters.AddWithValue("@certifiedRollsId", CertifiedRollsId);
+                            cmd.Parameters.AddWithValue("@IpAddress", IpAddress);
+
+                            cmd.Connection = con;
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            return result;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+
         }
 
 
