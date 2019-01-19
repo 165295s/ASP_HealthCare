@@ -163,6 +163,7 @@
     <Content Include="CaptureBarcode.aspx" />
     <Content Include="CaptureBarcodePatientVisitDeparture.aspx" />
     <Content Include="Checkout.aspx" />
+    <Content Include="ConfirmEmail.aspx" />
     <Content Include="Connected Services\SMS\EAD_Project.SMS.SMSData.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -200,6 +201,7 @@
     <Content Include="Css\VisitorManagementStyle.css" />
     <Content Include="Custom_Error_Page.aspx" />
     <Content Include="Diagnose_Patient.aspx" />
+    <Content Include="EmailSend.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FoodCustomisation.aspx" />
     <Content Include="FoodOrderList.aspx" />
@@ -241,6 +243,7 @@
     <Content Include="QueueAdministration.aspx" />
     <Content Include="QueueCheck.aspx" />
     <Content Include="QueueService.asmx" />
+    <Content Include="Register.aspx" />
     <Content Include="ReminderNurse.aspx" />
     <Content Include="ReminderPatientSelection.aspx" />
     <Content Include="Scripts\cust\Dynamsoft.BarcodeReaderDemo.js" />
@@ -309,6 +312,13 @@
     <Compile Include="Checkout.aspx.designer.cs">
       <DependentUpon>Checkout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ConfirmEmail.aspx.cs">
+      <DependentUpon>ConfirmEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmEmail.aspx.designer.cs">
+      <DependentUpon>ConfirmEmail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\SMS\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -318,6 +328,7 @@
     <Compile Include="Controller\MasterPageController.cs" />
     <Compile Include="Controller\PatientVisitArrivalController.cs" />
     <Compile Include="Controller\QueueAdminController.cs" />
+    <Compile Include="Controller\RegistrationController.cs" />
     <Compile Include="Controller\ResetPasswordController.cs" />
     <Compile Include="Controller\VisitorManagementController.cs" />
     <Compile Include="Custom_Error_Page.aspx.cs">
@@ -357,6 +368,8 @@
     <Compile Include="DAL\ReminderNurseDAO.cs" />
     <Compile Include="DAL\ReminderNurseObject.cs" />
     <Compile Include="DAL\ReminderPatientDetailsObj.cs" />
+    <Compile Include="DAL\Visitor.cs" />
+    <Compile Include="DAL\VisitorDAO.cs" />
     <Compile Include="DAL\VisitorManagementDAO.cs" />
     <Compile Include="DAL\VisitorManagementOBJ.cs" />
     <Compile Include="Diagnose_Patient.aspx.cs">
@@ -372,6 +385,13 @@
     </Compile>
     <Compile Include="EadTeam.Master.designer.cs">
       <DependentUpon>EadTeam.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSend.aspx.cs">
+      <DependentUpon>EmailSend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmailSend.aspx.designer.cs">
+      <DependentUpon>EmailSend.aspx</DependentUpon>
     </Compile>
     <Compile Include="FoodCustomisation.aspx.cs">
       <DependentUpon>FoodCustomisation.aspx</DependentUpon>
@@ -462,6 +482,13 @@
       <DependentUpon>QueueService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ReminderNurse.aspx.cs">
       <DependentUpon>ReminderNurse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -538,6 +565,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\SMS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Start\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
