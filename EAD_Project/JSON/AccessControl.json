@@ -27,7 +27,7 @@
     },
     {
       "role": "Visitor",
-      "page": [ "MainPage.aspx", "Login.aspx", "MedicineOnline.aspx", "Checkout.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+      "page": [ "MainPage.aspx", "Login.aspx", "MedicineOnline.aspx", "Checkout.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx", "Register.aspx" , "EmailSend.aspx", "ConfirmEmail.aspx"]
 
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "role": "null",
-      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx" ]
+      "page": [ "MainPage.aspx", "Login.aspx", "ResetPassword.aspx", "SendEmailLink.aspx", "Custom_Error_Page.aspx", "ConfirmEmail.aspx", "EmailSend.aspx"]
 
     }
   ]

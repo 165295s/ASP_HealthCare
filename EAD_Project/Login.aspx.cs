@@ -26,7 +26,11 @@ namespace EAD_Project
                 LblLogin.Text = Session["ssRole"].ToString() + " Login";
             }
 
-
+            if (Session["ssRole"] == "Visitor")
+            {
+                LblVisitorRegistration.Visible = true;
+                LblVisitorRegistration.Text = "<a href=\"Register.aspx\">Register here if you do not have an account</a>";
+            }
 
             LblResetPassword.Visible = true;
             LblResetPassword.Text = "Forgot <a href=\"SendEmailLink.aspx?Forgotten=Username\">Username</a> or <a href=\"SendEmailLink.aspx?Forgotten=Password\">Password</a>?";

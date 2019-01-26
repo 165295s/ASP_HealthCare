@@ -14,7 +14,7 @@ namespace EAD_Project
         RegistrationController RC = new RegistrationController();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void btn_Submit_Click(object sender, EventArgs e)
@@ -29,12 +29,18 @@ namespace EAD_Project
                 visitor.mobile_number = int.Parse(tb_Number.Text);
                 visitor.email = tb_Email.Text;
 
+            try
+            {
                 RC.InsertVisitor(visitor.nric, visitor.name, visitor.password, visitor.gender, visitor.mobile_number, visitor.email, visitor.accountLocked);
-
+            } catch (Exception)
+            {
+                Server.Transfer("Custom_Error_Page.aspx");
+            }
                 //send email function here
                 RC.SendConfirmationEmail(visitor.nric, visitor.name, visitor.email);
                 Response.Redirect("EmailSend.aspx");
             
         }
+
     }
 }

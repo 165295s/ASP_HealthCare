@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EadTeam.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="EAD_Project.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <script type="text/javascript">
+            function redirect(webpage) {
+                window.location = webpage;
+            }
+        </script>
     <style type="text/css">
         
         .Content {
@@ -8,7 +13,7 @@
         }
         
         .auto-style1 {
-            width: 80%;
+            width: 60%;
             margin: 0 auto;
         }
         
@@ -44,9 +49,28 @@
                 <td>
                     <asp:Label ID="lbl_Password" runat="server" Text="Password"></asp:Label></td>
                 <td>
-                    <asp:TextBox ID="tb_Password" runat="server" TextMode="Password"></asp:TextBox></td>
+                    <asp:TextBox ID="tb_Password" runat="server" TextMode="Password" onkeydown="checkPassword()" onkeyup="checkPassword()"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="rfv_Password" runat="server" ErrorMessage="Password is required!" ForeColor="Red" ControlToValidate="tb_Password"></asp:RequiredFieldValidator></td>
+                    <asp:RequiredFieldValidator ID="rfv_Password" runat="server" ErrorMessage="Password is required!" ForeColor="Red" ControlToValidate="tb_Password"></asp:RequiredFieldValidator>
+                    <br />
+                    <asp:Label ID="lbl_PwdValidation" runat="server" Text="" ForeColor="Red"></asp:Label>
+                    <br />
+                    <asp:RegularExpressionValidator ID="rgxv_Password" runat="server" ControlToValidate="tb_Password" ValidationExpression="^[a-zA-Z0-9]{6,}$"></asp:RegularExpressionValidator>
+                    <script language="javascript">
+                    function checkPassword()
+                    {
+                        //alert('Key Press')
+                        var characters = document.getElementById('<%= tb_Password.ClientID%>').value.length;
+
+                        if (characters == 0)
+                            document.getElementById('<%= lbl_PwdValidation.ClientID%>').innerHTML = '';
+                        else if (characters > 0 && characters <= 6)
+                            document.getElementById('<%= lbl_PwdValidation.ClientID%>').innerHTML = "Password is less than 6 characters";
+                        else if (characters >= 6)
+                            document.getElementById('<%= lbl_PwdValidation.ClientID%>').innerHTML = '';
+                    }
+    </script>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -88,6 +112,6 @@
             </tr>
         </table>
         <asp:Button ID="btn_Submit" runat="server" Text="Submit" OnClick="btn_Submit_Click" />
-        <asp:Button ID="btn_Cancel" runat="server" Text="Cancel" />
+        <input id="btnCancel" class="Cancel Corners" type="button" value="Cancel" OnClick="redirect('MainPage.aspx')"/>
     </div>
 </asp:Content>

@@ -103,6 +103,24 @@ namespace EAD_Project {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_Password;
         
         /// <summary>
+        /// lbl_PwdValidation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_PwdValidation;
+        
+        /// <summary>
+        /// rgxv_Password control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rgxv_Password;
+        
+        /// <summary>
         /// lbl_ConfirmPassword control.
         /// </summary>
         /// <remarks>
@@ -218,14 +236,5 @@ namespace EAD_Project {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Submit;
-        
-        /// <summary>
-        /// btn_Cancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Cancel;
     }
 }

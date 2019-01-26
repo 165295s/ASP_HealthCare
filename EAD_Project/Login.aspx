@@ -37,6 +37,8 @@
                 </tr>
                 <tr>
                     <td>
+                        <asp:Label ID="LblVisitorRegistration" runat="server" Text="" Visible="False"></asp:Label>
+                        <br />
                         <asp:Label ID="LblResetPassword" runat="server" Text="" Visible="False"></asp:Label>
                         <br />
                     <asp:Label ID="LblErr" runat="server" ForeColor="Red" Visible="False"></asp:Label>

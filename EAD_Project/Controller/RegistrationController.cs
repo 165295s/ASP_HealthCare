@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Web;
 
 namespace EAD_Project.Controller
@@ -13,6 +14,7 @@ namespace EAD_Project.Controller
     public class RegistrationController
     {
         VisitorDAO visitorDAO = new VisitorDAO();
+
 
         public void InsertVisitor(string nric, string name, string password, string gender, int mobileNumber, string email, string accountLocked)
         {
